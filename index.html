@@ -10,6 +10,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 </head>
 
 <body>
@@ -21,7 +23,9 @@
         <div class="container">
 
             <div class="logo">
-                <h2>PayFlow</h2>
+                <h2>
+    <span style="color:#2b84ea;">Pay</span>Flow
+</h2>
             </div>
 
             <ul class="nav-links">
@@ -42,39 +46,42 @@
     </nav>
 
     <!-- Hero Section -->
+<section class="hero">
 
-    <section class="hero">
+    <div class="container hero-container">
 
-        <div class="container hero-container">
+        <div class="hero-left" data-aos="fade-right">
 
-            <div class="hero-left">
+            <h1>
+                Powering Payments
+                For India's Growing Businesses
+            </h1>
 
-                <h1>
-                    Powering Payments
-                    For India's Growing Businesses
-                </h1>
+            <div class="line"></div>
 
-                <div class="line"></div>
+            <p>
+                Accept payments, automate payouts and manage
+                business finances from one secure platform.
+            </p>
 
-                <p>
-                    Accept payments, automate payouts and manage
-                    business finances from one secure platform.
-                </p>
-
-                <button class="hero-btn">
-                    Start Now →
-                </button>
-
-            </div>
-
-            <div class="hero-right">
-
-                <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200"
-                    alt="Dashboard">
-
-            </div>
+            <button class="hero-btn">
+                Start Now →
+            </button>
 
         </div>
+
+        <div class="hero-right" data-aos="fade-left">
+
+            <img
+                src="https://images.unsplash.com/photo-1556740749-887f6717d7e4?w=1200"
+                alt="Dashboard"
+            >
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- Trusted Companies -->
 
@@ -84,7 +91,7 @@
 
         <h2>Trusted by 10,000+ Businesses</h2>
 
-        <div class="brands">
+        <div class="brands" data-aos="fade-up">
 
             <div class="brand-card">Amazon</div>
             <div class="brand-card">Flipkart</div>
@@ -112,25 +119,25 @@
 
         <div class="payment-grid">
 
-            <div class="payment-card">
+            <div class="payment-card" data-aos="zoom-in">
                 <h3>Payment Gateway</h3>
                 <p>Accept cards, UPI, wallets and net banking.</p>
                 <button>Know More →</button>
             </div>
 
-            <div class="payment-card">
+            <div class="payment-card" data-aos="zoom-in">
                 <h3>Subscriptions</h3>
                 <p>Recurring billing for SaaS businesses.</p>
                 <button>Know More →</button>
             </div>
 
-            <div class="payment-card">
+            <div class="payment-card" data-aos="zoom-in">
                 <h3>International Payments</h3>
                 <p>Accept payments from 100+ countries.</p>
                 <button>Know More →</button>
             </div>
 
-            <div class="payment-card">
+            <div class="payment-card" data-aos="zoom-in">
                 <h3>Smart Checkout</h3>
                 <p>Faster checkout and higher conversion.</p>
                 <button>Know More →</button>
@@ -141,7 +148,7 @@
     </div>
 </section>
 
-<section class="stats">
+<section class="stats" data-aos="fade-up">
 
     <div class="container">
 
@@ -170,7 +177,7 @@
 </section>
 <!-- Features Section -->
 
-<section class="features">
+<section class="features" data-aos="fade-up">
 
     <div class="container">
 
@@ -195,22 +202,22 @@
 
         <div class="feature-right">
 
-            <div class="feature-box">
+            <div class="feature-box" data-aos="flip-left">
                 <h3>Payment Gateway</h3>
                 <p>Accept online payments securely.</p>
             </div>
 
-            <div class="feature-box">
+            <div class="feature-box" data-aos="flip-left">
                 <h3>Payouts</h3>
                 <p>Send money instantly to vendors.</p>
             </div>
 
-            <div class="feature-box">
+            <div class="feature-box" data-aos="flip-left">
                 <h3>Business Banking</h3>
                 <p>Track cash flow in real time.</p>
             </div>
 
-            <div class="feature-box">
+            <div class="feature-box" data-aos="flip-left">
                 <h3>Payroll</h3>
                 <p>Automate employee salary payments.</p>
             </div>
@@ -219,7 +226,7 @@
 
 </section>
 <!-- FAQ -->
-<section class="faq">
+<section class="faq" data-aos="fade-up">
 
     <div class="container">
 
@@ -257,7 +264,7 @@
 </section>
 <!-- Contact Section -->
 
-<section class="contact">
+<section class="contact" data-aos="fade-up">
 
     <div class="container">
 
@@ -296,7 +303,7 @@
     </div>
 
 </section>
-<footer class="footer">
+<footer class="footer" data-aos="fade-up">
 
     <div class="container footer-grid">
 
@@ -344,6 +351,13 @@
 </footer>
 
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
+<script>
+AOS.init({
+    duration:1000,
+    once:true
+});
+</script>
 </body>
 </html>
