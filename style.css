@@ -595,3 +595,12 @@ body{
         width:100%;
     }
 }
+.stat-box h2{
+    font-size:52px;
+    font-weight:800;
+}
+.stat-box h2{
+    font-size:60px;
+    font-weight:800;
+    color:white;
+}
